@@ -6,8 +6,6 @@ Samples for https://github.com/spring-projects/spring-security
 
 == Samples catalog
 
-*** Run
-
 ```bash
 ./gradlew tasks
 ./gradlew build
@@ -60,6 +58,134 @@ Samples for https://github.com/spring-projects/spring-security
 
 ./gradlew :servlet:spring-boot:java:hello-security:bootRun
 
+# /home/marcio/dados/spring-security-samples/reactive/webflux/java/hello-security/
+
+./gradlew :reactive:webflux:java:hello-security:bootRun
+
+# /home/marcio/dados/spring-security-samples/servlet/spring-boot/java/oauth2/resource-server/hello-security/
+
+./gradlew :servlet:spring-boot:java:oauth2:resource-server:hello-security:bootRun ???
+
+# /home/marcio/dados/spring-security-samples/reactive/rsocket/hello-security/
+
+./gradlew :reactive:rsocket:hello-security:bootRun ???
+
+# /home/marcio/dados/spring-security-samples/servlet/spring-boot/java/hello-security-explicit/
+
+./gradlew :servlet:spring-boot:java:hello-security-explicit:bootRun
+
+# /home/marcio/dados/spring-security-samples/reactive/webflux/java/hello-security-explicit/
+
+./gradlew :reactive:webflux:java:hello-security-explicit:bootRun
+
+# /home/marcio/dados/spring-security-samples/servlet/spring-boot/java/oauth2/resource-server/jwe/
+
+./gradlew :servlet:spring-boot:java:oauth2:resource-server:jwe:bootRun
+
+# /home/marcio/dados/spring-security-samples/servlet/spring-boot/java/ldap/
+
+./gradlew :servlet:spring-boot:java:ldap:bootRun
+
+# /home/marcio/dados/spring-security-samples/reactive/webflux/java/oauth2/login/
+
+./gradlew :reactive:webflux:java:oauth2:login:bootRun
+
+# /home/marcio/dados/spring-security-samples/servlet/spring-boot/java/saml2/login/
+
+./gradlew :servlet:spring-boot:java:saml2:login:bootRun ???
+
+# /home/marcio/dados/spring-security-samples/servlet/spring-boot/java/jwt/login/
+
+./gradlew :servlet:spring-boot:java:jwt:login:bootRun
+
+# /home/marcio/dados/spring-security-samples/servlet/spring-boot/java/cas/login/
+
+./gradlew :servlet:spring-boot:java:cas:login:bootRun ???
+
+# /home/marcio/dados/spring-security-samples/servlet/spring-boot/java/oauth2/login/
+
+./gradlew :servlet:spring-boot:java:oauth2:login:bootRun
+
+# /home/marcio/dados/spring-security-samples/reactive/webflux/java/authentication/one-time-token/magic-link/
+
+./gradlew :reactive:webflux:java:authentication:one-time-token:magic-link:bootRun
+
+# /home/marcio/dados/spring-security-samples/servlet/spring-boot/java/authentication/one-time-token/magic-link/
+
+./gradlew :servlet:spring-boot:java:authentication:one-time-token:magic-link:bootRun ???
+
+# /home/marcio/dados/spring-security-samples/reactive/webflux/java/session-management/maximum-sessions/
+
+./gradlew :reactive:webflux:java:session-management:maximum-sessions:bootRun
+
+# /home/marcio/dados/spring-security-samples/servlet/spring-boot/java/session-management/maximum-sessions/
+
+./gradlew :servlet:spring-boot:java:session-management:maximum-sessions:bootRun
+
+# /home/marcio/dados/spring-security-samples/servlet/spring-boot/java/session-management/maximum-sessions-prevent-login/
+
+./gradlew :servlet:spring-boot:java:session-management:maximum-sessions-prevent-login:bootRun
+
+# /home/marcio/dados/spring-security-samples/reactive/webflux/java/method/
+
+./gradlew :reactive:webflux:java:method:bootRun ???
+
+# /home/marcio/dados/spring-security-samples/servlet/spring-boot/java/authentication/username-password/mfa/
+
+./gradlew :servlet:spring-boot:java:authentication:username-password:mfa:bootRun
+
+# /home/marcio/dados/spring-security-samples/servlet/spring-boot/java/oauth2/resource-server/multi-tenancy/
+
+./gradlew :servlet:spring-boot:java:oauth2:resource-server:multi-tenancy:bootRun
+
+# /home/marcio/dados/spring-security-samples/servlet/spring-boot/java/observability/
+
+./gradlew :servlet:spring-boot:java:observability:bootRun
+
+# /home/marcio/dados/spring-security-samples/servlet/spring-boot/java/oauth2/resource-server/opaque/
+
+./gradlew :servlet:spring-boot:java:observability:bootRun
+
+# /home/marcio/dados/spring-security-samples/servlet/spring-boot/java/saml2/refreshable-metadata/
+
+./gradlew :servlet:spring-boot:java:saml2:refreshable-metadata:bootRun ???
+
+# /home/marcio/dados/spring-security-samples/reactive/webflux/java/oauth2/resource-server/
+
+./gradlew :reactive:webflux:java:oauth2:resource-server:bootRun
+
+# /home/marcio/dados/spring-security-samples/servlet/spring-boot/java/oauth2/restclient/
+
+./gradlew :servlet:spring-boot:java:oauth2:restclient:bootRun ???
+
+# /home/marcio/dados/spring-security-samples/servlet/spring-boot/java/oauth2/resource-server/restclient/
+
+./gradlew :servlet:spring-boot:java:oauth2:resource-server:restclient:bootRun
+
+# /home/marcio/dados/spring-security-samples/servlet/spring-boot/java/saml2/saml-extension-federation/
+
+./gradlew :servlet:spring-boot:java:saml2:saml-extension-federation:bootRun ???
+
+# /home/marcio/dados/spring-security-samples/servlet/spring-boot/java/saml2/saml-extension-urls/
+
+./gradlew :servlet:spring-boot:java:saml2:saml-extension-urls:bootRun ???
+
+# /home/marcio/dados/spring-security-samples/servlet/spring-boot/java/oauth2/resource-server/static/
+
+./gradlew :servlet:spring-boot:java:oauth2:resource-server:static:bootRun
+
+# /home/marcio/dados/spring-security-samples/reactive/webflux/java/oauth2/webclient/
+
+./gradlew :reactive:webflux:java:oauth2:webclient:bootRun
+
+# /home/marcio/dados/spring-security-samples/servlet/spring-boot/java/oauth2/webclient/
+
+./gradlew :servlet:spring-boot:java:oauth2:webclient:bootRun
+
+# /home/marcio/dados/spring-security-samples/reactive/webflux/java/authentication/x509/
+
+./gradlew :reactive:webflux:java:authentication:x509:bootRun
+
 ```
 
 === Getting Started
@@ -67,15 +193,15 @@ Samples for https://github.com/spring-projects/spring-security
 * Hello Security 
 ** https://github.com/spring-projects/spring-security-samples/tree/main/servlet/spring-boot/java/hello-security[Spring Boot]
 
-*** Run
 
 ```bash
 ./gradlew :servlet:spring-boot:java:hello-security:bootRun
 ```
 
-*** 🆘 Issue
+```bash
 
-```
+🆘 Issue
+
 When viewing
 
 http://localhost:8080/
@@ -88,17 +214,44 @@ How do I authenticate and access the controller created in this example?
 ```
 
 ** https://github.com/spring-projects/spring-security-samples/tree/main/reactive/webflux/java/hello-security[WebFlux]
+
+```bash
+./gradlew :reactive:webflux:java:hello-security:bootRun
+```
+
 ** https://github.com/spring-projects/spring-security-samples/tree/main/reactive/webflux-fn/hello-security[WebFlux.fn]
 
 ** https://github.com/spring-projects/spring-security-samples/tree/main/servlet/java-configuration/hello-security[Java Configuration]
+
 ** https://github.com/spring-projects/spring-security-samples/tree/main/servlet/xml/java/helloworld[XML]
+
 ** https://github.com/spring-projects/spring-security-samples/tree/main/servlet/spring-boot/kotlin/hello-security[Kotlin]
+
 **  https://github.com/spring-projects/spring-security-samples/tree/main/reactive/webflux/kotlin/hello-security[WebFlux Kotlin]
+
 ** https://github.com/spring-projects/spring-security-samples/tree/main/reactive/rsocket/hello-security[RSocket]
+
+```bash
+./gradlew :reactive:rsocket:hello-security:bootRun ???
+```
 
 * Hello Security (without Spring MVC) - https://github.com/spring-projects/spring-security-samples/tree/main/servlet/java-configuration/hello-security-explicit[Java Configuration]
 
-* Hello Security with Explicit Configuration - https://github.com/spring-projects/spring-security-samples/tree/main/servlet/spring-boot/java/hello-security-explicit[Spring Boot] | https://github.com/spring-projects/spring-security-samples/tree/main/reactive/webflux/java/hello-security-explicit[WebFlux] | https://github.com/spring-projects/spring-security-samples/tree/main/servlet/java-configuration/hello-mvc-security[Java Configuration]
+* Hello Security with Explicit Configuration
+
+** https://github.com/spring-projects/spring-security-samples/tree/main/servlet/spring-boot/java/hello-security-explicit[Spring Boot] 
+
+```bash
+./gradlew :servlet:spring-boot:java:hello-security-explicit:bootRun
+```
+
+** https://github.com/spring-projects/spring-security-samples/tree/main/reactive/webflux/java/hello-security-explicit[WebFlux]
+
+```bash
+./gradlew :reactive:webflux:java:hello-security-explicit:bootRun
+```
+
+** https://github.com/spring-projects/spring-security-samples/tree/main/servlet/java-configuration/hello-mvc-security[Java Configuration]
 
 * Method Security - https://github.com/spring-projects/spring-security-samples/tree/main/reactive/webflux/java/method[WebFlux]
 
@@ -116,11 +269,27 @@ How do I authenticate and access the controller created in this example?
 
 * Resource Server
 
-** Hello Security - https://github.com/spring-projects/spring-security-samples/tree/main/servlet/spring-boot/java/oauth2/resource-server/hello-security[Spring Boot] | https://github.com/spring-projects/spring-security-samples/tree/main/reactive/webflux/java/oauth2/resource-server[WebFlux]
+** Hello Security
+
+*** https://github.com/spring-projects/spring-security-samples/tree/main/servlet/spring-boot/java/oauth2/resource-server/hello-security[Spring Boot]
+
+```bash
+./gradlew :servlet:spring-boot:java:oauth2:resource-server:hello-security:bootRun ???
+```
+
+*** https://github.com/spring-projects/spring-security-samples/tree/main/reactive/webflux/java/oauth2/resource-server[WebFlux]
 
 ** https://github.com/spring-projects/spring-security-samples/tree/main/servlet/spring-boot/java/oauth2/resource-server/jwe[JSON Web Encryption (JWE)]
 
+```bash
+./gradlew :servlet:spring-boot:java:oauth2:resource-server:jwe:bootRun
+```
+
 ** https://github.com/spring-projects/spring-security-samples/tree/main/servlet/spring-boot/java/oauth2/resource-server/multi-tenancy[Multi-tenancy]
+
+```bash
+./gradlew :servlet:spring-boot:java:oauth2:resource-server:multi-tenancy:bootRun
+```
 
 ** https://github.com/spring-projects/spring-security-samples/tree/main/servlet/spring-boot/java/oauth2/resource-server/opaque[Opaque Token]
 
@@ -132,7 +301,15 @@ How do I authenticate and access the controller created in this example?
 
 === SAML 2.0
 
-* Login & Logout - https://github.com/spring-projects/spring-security-samples/tree/main/servlet/spring-boot/java/saml2/login[Spring Boot] | https://github.com/spring-projects/spring-security-samples/tree/main/servlet/java-configuration/saml2/login[Java Configuration]
+* Login & Logout 
+
+** https://github.com/spring-projects/spring-security-samples/tree/main/servlet/spring-boot/java/saml2/login[Spring Boot]
+
+```bash
+./gradlew :servlet:spring-boot:java:saml2:login:bootRun  ???
+```
+
+** https://github.com/spring-projects/spring-security-samples/tree/main/servlet/java-configuration/saml2/login[Java Configuration]
 
 === Authentication
 
@@ -152,6 +329,10 @@ How do I authenticate and access the controller created in this example?
 
 ** https://github.com/spring-projects/spring-security-samples/tree/main/servlet/spring-boot/java/authentication/username-password/mfa[Multi-factor authentication]
 
+```bash
+./gradlew :servlet:spring-boot:java:authentication:username-password:mfa:bootRun
+```
+
 ** https://github.com/spring-projects/spring-security-samples/tree/main/servlet/spring-boot/java/authentication/username-password/user-details-service/custom-user[Custom `UserDetails`]
 
 * X.509 - https://github.com/spring-projects/spring-security-samples/tree/main/servlet/java-configuration/authentication/x509[Java Configuration] | https://github.com/spring-projects/spring-security-samples/tree/main/reactive/webflux/java/authentication/x509[WebFlux]
@@ -159,3 +340,7 @@ How do I authenticate and access the controller created in this example?
 === JWT
 
 * Login - https://github.com/spring-projects/spring-security-samples/tree/main/servlet/spring-boot/java/jwt/login[Spring Boot]
+
+```bash
+./gradlew :servlet:spring-boot:java:jwt:login:bootRun
+```

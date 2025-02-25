@@ -21,7 +21,7 @@ Then you can query `GET /message` using `user/password` and `admin/password`.
 Using HTTPie, that would look something like this to get a successful response:
 
 ```bash
-http -a user:password :8080/message`
+http -a user:password :8080/message
 ```
 
 If you want to see a failed authentication, try `http -a user:wrong :8080/message`.
