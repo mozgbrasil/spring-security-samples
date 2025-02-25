@@ -6,6 +6,7 @@ Samples for https://github.com/spring-projects/spring-security
 
 == Samples catalog
 
+*** Run
 
 ```bash
 ./gradlew tasks
@@ -13,18 +14,68 @@ Samples for https://github.com/spring-projects/spring-security
 ./gradlew bootRun
 ```
 
+```bash
+
+# /home/marcio/dados/spring-security-samples/servlet/spring-boot/java/oauth2/authorization-server/
+
+./gradlew :servlet:spring-boot:java:oauth2:authorization-server:bootRun
+
+# /home/marcio/dados/spring-security-samples/servlet/spring-boot/java/authentication/username-password/compromised-password-checker/
+
+./gradlew :servlet:spring-boot:java:authentication:username-password:compromised-password-checker:bootRun
+
+# /home/marcio/dados/spring-security-samples/servlet/spring-boot/java/authentication/username-password/user-details-service/custom-user/
+
+./gradlew :servlet:spring-boot:java:authentication:username-password:user-details-service:custom-user:bootRun
+
+# /home/marcio/dados/spring-security-samples/servlet/java-configuration/data/
+
+./gradlew :servlet:java-configuration:data:bootRun ?????
+
+# /home/marcio/dados/spring-security-samples/servlet/spring-boot/java/aot/data/
+
+./gradlew :servlet:spring-boot:java:aot:data:bootRun
+
+# /home/marcio/dados/spring-security-samples/servlet/spring-boot/java/data/
+
+./gradlew :servlet:spring-boot:java:data:bootRun
+
+# /home/marcio/dados/spring-security-samples/reactive/webflux/java/authentication/username-password/form/
+
+./gradlew :reactive:webflux:java:authentication:username-password:form:bootRun
+
+# /home/marcio/dados/spring-security-samples/reactive/webflux/java/hello/
+
+./gradlew :reactive:webflux:java:hello:bootRun
+
+# /home/marcio/dados/spring-security-samples/reactive/webflux-fn/hello-security/
+
+./gradlew :reactive:webflux-fn:hello-security:bootRun
+
+# /home/marcio/dados/spring-security-samples/servlet/spring-boot/java/hello/
+
+./gradlew :servlet:spring-boot:java:hello:bootRun
+
+# /home/marcio/dados/spring-security-samples/servlet/spring-boot/java/hello-security/
+
+./gradlew :servlet:spring-boot:java:hello-security:bootRun
+
+```
+
 === Getting Started
 
 * Hello Security 
-** [Spring Boot](https://github.com/spring-projects/spring-security-samples/tree/main/servlet/spring-boot/java/hello-security)
-*** 
+** https://github.com/spring-projects/spring-security-samples/tree/main/servlet/spring-boot/java/hello-security[Spring Boot]
+
+*** Run
+
 ```bash
-./gradlew :servlet:spring-boot:java:hello-security:tasks
-./gradlew :servlet:spring-boot:java:hello-security:build
 ./gradlew :servlet:spring-boot:java:hello-security:bootRun
 ```
+
+*** 🆘 Issue
+
 ```
-🆘🆘🆘
 When viewing
 
 http://localhost:8080/
@@ -34,11 +85,10 @@ it redirects to
 http://localhost:8080/login
 
 How do I authenticate and access the controller created in this example?
-🆘🆘🆘
 ```
 
-** [WebFlux](https://github.com/spring-projects/spring-security-samples/tree/main/reactive/webflux/java/hello-security)
-** [WebFlux.fn](https://github.com/spring-projects/spring-security-samples/tree/main/reactive/webflux-fn/hello-security)
+** https://github.com/spring-projects/spring-security-samples/tree/main/reactive/webflux/java/hello-security[WebFlux]
+** https://github.com/spring-projects/spring-security-samples/tree/main/reactive/webflux-fn/hello-security[WebFlux.fn]
 
 ** https://github.com/spring-projects/spring-security-samples/tree/main/servlet/java-configuration/hello-security[Java Configuration]
 ** https://github.com/spring-projects/spring-security-samples/tree/main/servlet/xml/java/helloworld[XML]
